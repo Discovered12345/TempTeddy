@@ -1,6 +1,6 @@
 # TempTeddy
 
-#Link: https://wokwi.com/projects/432161273389620225
+# Link: https://wokwi.com/projects/432161273389620225
 
 ![image](https://github.com/user-attachments/assets/4a693a36-070b-4a63-824f-9966bf323f8e)
 
