@@ -1,7 +1,7 @@
 # TempTeddy
-PBL 2025 Project
+# PBL 2025 Project
 
-Wiring: 
+# Wiring: 
 ![image](https://github.com/user-attachments/assets/4a693a36-070b-4a63-824f-9966bf323f8e)
 
 
