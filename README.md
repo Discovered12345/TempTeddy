@@ -42,3 +42,39 @@ VCC → 5V
 GND → GND
 SDA → A4
 SCL → A5
+
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+
+# Non-Simulator (At-School) Wiring:
+
+# DHT11 Sensor
+VCC → 5V
+DATA → D2
+NC → (leave unconnected)
+GND → GND
+
+# OLED Display
+
+GND → GND
+VCC → 5V
+SCL → A5
+SDA → A4
+
+# Piezo Buzzer
+
+Positive → D8
+Negative → GND
+
+# Red LED
+Anode (Positive) → D9 (with 220Ω resistor in series)
+Cathode (Negative) → GND
+
+# Button
+
+One leg → D7
+Other leg → GND
+(use INPUT_PULLUP in code)
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
