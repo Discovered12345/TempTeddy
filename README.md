@@ -11,37 +11,6 @@
 ![image](https://github.com/user-attachments/assets/4a693a36-070b-4a63-824f-9966bf323f8e)
 
 
-# DHT11 Sensor
-VCC → 5V
-SDA → D2
-NC → (leave unconnected)
-GND → GND
-
-
-# Piezo Buzzer
-BZ1:1 → D8
-BZ1:2 → GND
-Red LED
-LED1:A → D9
-LED1:C → GND
-
-
-# Push Button (4 pins)
-
-BTN1:1.L → D7
-BTN1:2.L → GND
-BTN1:1.R → (no connection)
-BTN1:2.R → (no connection)
-
-
-# OLED Display (SSD1306 I2C)
-
-VCC → 5V
-GND → GND
-SDA → A4
-SCL → A5
-
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
@@ -74,5 +43,26 @@ Cathode (Negative) → GND
 One leg → D7
 Other leg → GND
 (use INPUT_PULLUP in code)
+
+
+# Prototype 2
+
+| Component        | Pin Label on Component | Connect to Arduino Pin |
+| ---------------- | ---------------------- | ---------------------- |
+| **MLX90614**     | VCC                    | 5V                     |
+|                  | GND                    | GND                    |
+|                  | SDA                    | A4                     |
+|                  | SCL                    | A5                     |
+| **OLED Display** | VCC                    | 5V                     |
+|                  | GND                    | GND                    |
+|                  | SDA                    | A4                     |
+|                  | SCL                    | A5                     |
+| **Piezo Buzzer** | +                      | Pin 8                  |
+|                  | -                      | GND                    |
+| **LED**          | Anode (+)              | Pin 9                  |
+|                  | Cathode (–)            | GND (via resistor)     |
+| **Button**       | One pin                | Pin 7                  |
+|                  | Other pin              | GND                    |
+
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
