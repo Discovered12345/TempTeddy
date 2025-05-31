@@ -22,27 +22,23 @@ DATA → D2
 NC → (leave unconnected)
 GND → GND
 
-# OLED Display
+| Component        | Pin Label on Component | Connect to Arduino Pin |
+| ---------------- | ---------------------- | ---------------------- |
+| **DHT11/22**     | VCC                    | 5V                     |
+|                  | DATA                   | D2                     |
+|                  | NC                    | unconnected            |
+|                  | GND                    | GND                    |
+| **OLED Display** | VCC                    | 5V                     |
+|                  | GND                    | GND                    |
+|                  | SDA                    | A4                     |
+|                  | SCL                    | A5                     |
+| **Piezo Buzzer** | +                      | Pin 8                  |
+|                  | -                      | GND                    |
+| **LED**          | Anode (+)              | Pin 9                  |
+|                  | Cathode (–)            | GND (via resistor)     |
+| **Button**       | One pin                | Pin 7                  |
+|                  | Other pin              | GND                    |
 
-GND → GND
-VCC → 5V
-SCL → A5
-SDA → A4
-
-# Piezo Buzzer
-
-Positive → D8
-Negative → GND
-
-# Red LED
-Anode (Positive) → D9 (with 220Ω resistor in series)
-Cathode (Negative) → GND
-
-# Button
-
-One leg → D7
-Other leg → GND
-(use INPUT_PULLUP in code)
 
 
 # Prototype 2
@@ -66,3 +62,8 @@ Other leg → GND
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+# Prototype 2 Code:
+
+![Prototype 2 Code](https://github.com/user-attachments/assets/c0905e42-e777-4629-a025-ba03304a2331)
+
