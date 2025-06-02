@@ -63,3 +63,11 @@ GND → GND
 
 ![Prototype 2 Code](https://github.com/user-attachments/assets/c0905e42-e777-4629-a025-ba03304a2331)
 
+# To Do:
+1. Infographic
+2. Update Adobe Express Website
+3. Build official website
+4. make the second prototype
+5. make the third prototype
+6. make the third prototype code
+7. final prototype + final code
