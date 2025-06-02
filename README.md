@@ -4,7 +4,7 @@
 
 # Link: https://wokwi.com/projects/432161273389620225
 
-//![image](https://github.com/user-attachments/assets/4a693a36-070b-4a63-824f-9966bf323f8e)
+![image](https://github.com/user-attachments/assets/4a693a36-070b-4a63-824f-9966bf323f8e)
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
