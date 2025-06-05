@@ -1,4 +1,4 @@
-# Prototype 1
+# Prototype 1 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -71,3 +71,7 @@ GND → GND
 5. make the third prototype
 6. make the third prototype code
 7. final prototype + final code
+
+# Prototype 3:
+
+
